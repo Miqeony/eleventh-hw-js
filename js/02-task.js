@@ -31,9 +31,8 @@ const location = {
     city: 'Мадрид',
     distance: 2000,
 };
-
+car.showInfo()
 function showTime() {
-    car.showInfo()
     const time = Math.round(location.distance / car.speed);
     console.log(`Автомобіль ${car.brand}, моделі ${car.model} дістанеться міста ${location.city} за ${time} годин`);
 };
