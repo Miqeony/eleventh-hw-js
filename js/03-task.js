@@ -30,10 +30,10 @@ students.forEach(student => {
 console.log(greetStudent(student));
 });
 
-let greetings = students.map(student =>  ` Привіт я ${student.name}`)
+const greetings = students.map(student =>  ` Привіт я ${student.name}`)
 console.log(greetings);
 
-let filteredRating = students.filter( ({rating}) => rating > 30)
+const filteredRating = students.filter( ({rating}) => rating > 30)
 console.log(filteredRating);
 
 function addRating(points) {
